@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sign.myutils.MainActivity">
+    tools:context=".FormatEditTextActivity">
 
-    <Button
-        android:id="@+id/btn_cpf_watcher"
+    <EditText
+        android:id="@+id/et_cpf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="cpf watcher"
-        android:textAllCaps="false" />
-
+        android:digits="0123456789.-"
+        android:inputType="number"
+        android:maxLength="14"
+        android:singleLine="true" />
 </LinearLayout>
