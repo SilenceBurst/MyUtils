@@ -13,4 +13,11 @@
         android:text="cpf watcher"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_center_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="center Recycler"
+        android:textAllCaps="false" />
+
 </LinearLayout>
